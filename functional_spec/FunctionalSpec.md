@@ -313,7 +313,7 @@ Displayed in this section are several diagrams which help to describe and displa
 
 The Gantt chart sets out the order we want to build our webapp and the timeframe for each item.  
 
-![Gantt Chart](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/GanttChartFinal.jpg)
+![Gantt Chart](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/GanttChart.jpg)
 
 
 ## 7.Appendices
