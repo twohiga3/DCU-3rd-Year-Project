@@ -1,14 +1,14 @@
 # Functional Specification for Meeting-Organiser  
 
 ## 1.Introduction
- 1. 1 Overview
- 1. 2 Glossary
+ 1.1 Overview  
+ 1.2 Glossary  
 
 ## 2.General Descriptions
- 2. 1 System Functions
- 2. 2 User Characteristics and Objectives
- 2. 3 Operational Scenarios
- 2. 4 Constraints
+ 1.1 System Functions  
+ 2.2 User Characteristics and Objectives  
+ 2.3 Operational Scenarios  
+ 2.4 Constraints  
 
 ## 3.Functional Requirements
 ### 3.1 User Login/Registration
