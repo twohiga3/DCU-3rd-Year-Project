@@ -278,3 +278,8 @@ Displayed in this section are several diagrams which help to describe and displa
 ### Logical Data System Diagram
 ![Logical Data System Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/LogicalDataSystem.png)
 
+## 6.
+
+
+![Gantt Chart]()
+
