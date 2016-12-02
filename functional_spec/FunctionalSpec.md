@@ -226,7 +226,7 @@ Users can add new users into their group. A user must be an admin of a group to 
 _Criticality_   
 This is very important for making groups work properly however it is not critical to the webapp.  
  
-_Technical Issues_  https://www.redbrick.dcu.ie/
+_Technical Issues_  
 The webapp must be able to set users as admins of their respective groups. It also needs some way of sending invites to groups to users via their email addresses. Lastly, the application must be able to keep track of how many users are in a group and enforce an upper limit on it.  
  
 _Dependencies_  
