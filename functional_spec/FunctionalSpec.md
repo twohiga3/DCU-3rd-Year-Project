@@ -20,15 +20,20 @@
  3.7 Calendar Sync  
  3.8 Database Queries  
 
-## 4.System Architecture
+## 4.System Architecture  
 
-## 5.High Level Design
+
+## 5.High Level Design  
+
 
 ## 6.Preliminary Schedule
 
+
 ## 7.Appendices
 
+
 ***
+
 
 ## 1.Introduction
 
