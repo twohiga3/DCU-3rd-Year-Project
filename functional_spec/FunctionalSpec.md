@@ -1,6 +1,6 @@
 # Functional Specification for Meeting-Organiser
 
-## Introduction
+## 1.Introduction
 
 **1.1 Overview**
 
@@ -18,4 +18,34 @@ _CSS_ - Cascading Style Sheet
 _SQL_ - Standard Query Language  
 _PHP_ - PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor.  
 _Java_ - Slang lingo for coffee. Also refers to the programming language by oracle which will be used in the development of the application.  
+
+***
+
+## 2.General Descriptions
+
+**2.1 System Functions**
+
+_Users_  
+Users of the webapp will create a login for our site using a gmail account. Through use of Google API this will allow the webapp to access the user’s google calendar and send emails to the users. Users will be able to alter some settings, such as what they will receive email notifications about, which users can contact them, if their details display to other users in groups and other expected user functions.  
+
+_Groups_  
+Groups will hold any number of users from 2+. High user count groups will be unadvised but will still be permitted. Each group will have a chat client. Groups can have subgroups, which are purposed for businesses but can be used by anyone. Groups will have the option to be for a once off meeting. This means that after a meeting is scheduled the group will be disbanded. This function is for once-off meetings.  
+
+_Group Admins_  
+When a user creates a group they automatically become the admin of the group. Admins decide when all users have joined the group, when to organise a meeting, which users are high priority, settle tied votes, set meeting requirements.  
+
+_Interface_  
+The interface of our website will be programmed through HTML and CSS. It will be easy to use for a first time user, but also rewardingly fast for an experienced user through use of shortcuts and memory of users most used tasks.  
+
+_Meetings_  
+The core function of the webapp. When the admin of a group clicks the “Organise a Meeting” button, the meeting function begins operating. It will dissect each user in the group’s calendar, taking out each available free time which adheres to parameters set by the group admin. It will compare each user’s list of free times and return all the suitable times it found.  
+
+_Voting_  
+In the event of the meeting function returning multiple possible meeting times, user’s will be given the option to vote for their preferential meeting times through highest importance voting - ie they rank their most suited time 1, and their least suited time n where n is the number of meetings returned.  
+
+
+  
+
+
+
 
