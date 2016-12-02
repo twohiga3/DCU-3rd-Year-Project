@@ -134,7 +134,7 @@ It is necessary for the program that it meets the requirements of its users.
 
 ***
 
-## 3 Functional Requirements
+## 3.Functional Requirements
 
 ### 3.1 User Login/Registration
 
@@ -249,6 +249,8 @@ Database queries adds the need for SQL and PHP to the project. Requires a physic
 _Dependencies_  
 The User and Group information is stored on the database. These are the only functional requirements which interact with the database.  
 
+
+## 4 System Architecture
 
 
 
