@@ -12,6 +12,7 @@
 
 ## 3.Functional Requirements
  3.1 User Login/Registration  
+
  3.2 Creating a group  
  3.3 Adding Users to a Group  
  3.4 Creating a Meeting  
