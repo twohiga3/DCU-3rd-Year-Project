@@ -251,6 +251,28 @@ The User and Group information is stored on the database. These are the only fun
 
 
 ## 4.System Architecture
+
+Below is a system architecture diagram, which shows where the interactions between users, the system, and the databases occur.  
+
+
+### System Architecture Diagram
 ![System Architecture Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/4.%20System%20Architecture%20Diagram.jpg)
 
+## 5.High Level Design
+
+Displayed in this section are several diagrams which help to describe and display the functionality of our webapp. The diagrams that will be shown below are:   
+
+* _Context Diagram_
+
+* _Data Flow Diagram_
+
+* _Logical Data System_
+
+### Context Diagram
+
+![Context Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/5.%20High%20Level%20Design.jpg)
+
+![Data Flow Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/DataFlowDiagram.png)
+
+![Logical Data System Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/LogicalDataSystem.png)
 
