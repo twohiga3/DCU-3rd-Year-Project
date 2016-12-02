@@ -48,16 +48,16 @@ In the event of the meeting function returning multiple possible meeting times, 
 _Types of Users_  
 
 There are 2 primary types of Users we are catering towards.   
-1.Business people looking to organise internal or external meetings
-2.College students looking to organise meetings with lecturers or with groups for projects.   
+1. Business people looking to organise internal or external meetings 
+2. College students looking to organise meetings with lecturers or with groups for projects. 
 
 Each of these users will probably be daily users of the internet and as a result should be able to access our website without any issues. Some may also be familiar with Calendars and how to import, export, and sync them. However it would still be a good idea to provide instruction on how to complete these tasks. Both these groups will probably be familiar with the website “Doodle” which has a similar function to our webapp. This will help us as users will be familiar with this idea of figuring out common free times using a website. It may also however lead to users finding it tough to adapt to the changes between “Doodle” and our website.  
 
 However due to the broad appeal of a meeting planner it could be expected that a variety of users would use the webapp.. While we can assume they at least have a basic knowledge of the web, our webapp must still be easy to use so as to cater to the lower technical skills of some of the users.  
 
-_Users Expectations / Requirements_
+#### Users Expectations / Requirements 
 
-#### Business / College Expectations
+##### Business / College Expectations
 * The ability to organise a meeting between groups of people. The people in the group may or may not be users of the website.
 
 * An easy way to fill in when they are unavailable. This could be manually filling in a calendar or importing their calendar.
@@ -119,9 +119,9 @@ _Users Expectations / Requirements_
 6. User presses create button.
 7. User is informed if group is successfully created.
 
-### **2.4**
+### 2.4
 
-The webapp will run into multiple constraints throughout the development process. Below, these constraints are listed:  
+The webapp will run into multiple constraints throughout the development process. These constrains are listed below:  
 
 _Time Constraints_
 The development team will encounter issues arising from trying to have the project completed and operational in the six weeks they have to complete it.  
