@@ -119,7 +119,7 @@ However due to the broad appeal of a meeting planner it could be expected that a
 6. User presses create button.
 7. User is informed if group is successfully created.
 
-### 2.4
+### 2.4 Constraints
 
 The webapp will run into multiple constraints throughout the development process. These constrains are listed below:  
 
@@ -132,6 +132,122 @@ In order for the webapp to be operational it is necessary that it can be hosted 
 _User Requirements_  
 It is necessary for the program that it meets the requirements of its users.
 
+***
+
+## 3 Functional Requirements
+
+### 3.1 User Login/Registration
+
+_Description_  
+This system will allow Users to log in to an existing account or create a new account. These will be stored in the database so the webapp can authenticate a user’s username and and password.  
+This will be done using the Google Firebase Api. This allows users to login using their pre-existing google accounts.  
+
+_Criticality_  
+This system is critical to the webapp. The webapp needs to be able to access the user’s Google Calendars to select the best times for meetings, if they aren’t logged in application has no way to access their calendar. Users are also required to make groups.  
+
+_Technical Issues_  
+The webapp must deal with all the usual issues that exist in implementing a login system. For example storing the usernames and password securely, checking that details are entered correctly, and providing a system for users to recover locked accounts as well as a good UI.  
+However the application must also allow users to log in with a pre-existing google account this adds another layer of intricacy.  
+
+_Dependencies_  
+User depends on being able to query the database for the user’s login information.  
+
+### 3.2 Creating a group
+
+_Description_  
+The webapp allows users to set up a group. These will allow users to create meetings within the group as well as other expanded setting not available to users making a solitary meeting. Some examples of this are adding meeting rooms to groups as well as creating subgroups. Users can have multiple groups and groups can be organised for just two users up to a seemingly unreachable cap. It is from groups that meetings will be organised.  
+ 
+_Criticality_  
+It goes without question that without groups there will be no meetings. In a webapp based around making the organisation of a meeting easier, meetings are important. Thus, groups are extremely important to the webapp.  
+ 
+_Technical Issues_  
+Groups will need to be stored somewhere, thus adding the necessity for databasing. UI wise it should be clear how to create a group and change group settings. Functionally it should be easy for users to create and join groups.  
+ 
+_Dependencies_  
+Groups depend on the existence of users, such that, there cannot be a collection of users without users to collect.  
+ 
+### 3.3 Adding Users to a Group
+ 
+_Description_  
+Users can add new users into their group. A user must be an admin of a group to add users into it. The user who is added to the group is sent an email. They can accept the invitation and join the group or choose not to join the group. Groups will have a limit on how many users can join them.  
+ 
+_Criticality_   
+This is very important for making groups work properly however it is not critical to the webapp.  
+ 
+_Technical Issues_  
+The webapp must be able to set users as admins of their respective groups. It also needs some way of sending invites to groups to users via their email addresses. Lastly, the application must be able to keep track of how many users are in a group and enforce an upper limit on it.  
+ 
+_Dependencies_  
+Requires groups to be working as well as users registration and login. Also needs database queries to be working.  
+ 
+### 3.4 Creating a Meeting
+
+_Description_  
+Meetings are created by a user. The creator of the meeting will input an acceptable timeframe for the meeting to occur within. They will also add the users they wish to attend the meeting. Lastly they can chose to make the meeting a repeating one eg Daily, Weekly, or Monthly. The system then searches for the time that most of the attendees are free within that timeframe. It returns a couple of times and lets the users decide on the best time for the meeting to occur. It will also allow users to chat with other members of the meeting using a secure group chat.  
+ 
+_Criticality_  
+This is the main driving idea behind the webapp and as such is the most critical part.
+ 
+_Technical Issues_  
+It will be necessary to be able to access each user’s calendar. The application will need to be able to send users invited to a meeting an email.
+ 
+_Dependencies_  
+This depends on querying a database and the ability to sync with user’s calendars and the ability of the users to login to the webapp.
+ 
+### 3.5 Voting on the Best Time for a Meeting
+ 
+_Description_  
+Users are given a couple of options as to which time suits them best for a meeting. A user will rank these options from best time to worst time. The system will then choose the most popular option will keeping in account certain rules. These rules might include things like a certain person must be available at that time or the meeting room must have the ability to video conference.  
+ 
+_Criticality_  
+While this is not a key feature of the meeting organiser, it will add an element of user control, and is important to settle instances where users have multiple common available times.  
+
+_Technical Issues_  
+The webapp needs to find a way of allowing users to vote on certain options. This will probably be done by using a mixture of html and css for the webapp and php and sql to calculate and store the result.  
+ 
+_Dependencies_  
+Depends on Meetings, Users, Database Queries.  
+ 
+### 3.6 Calendars
+_Description_  
+Calendars for the webapp refer to the Google Calendars associated with each user’s profile. They will be read by the webapp in order to organise meetings. The webapp will also write new meetings to the user’s calendar.  
+ 
+_Criticality_  
+High importance: Without calendars the webapp will not be able to find free time for all users to organise meetings.  
+ 
+_Technical Issues_  
+As the calendars will not be hosted by the webapp or the database associated, the program may have slow periods depending on internet traffic, as it will be sourcing its calendar information from the internet.  
+ 
+_Dependencies_  
+Each calendar is associated to a user. Calendar interacts with meetings.  
+ 
+### 3.7 Calendar Sync
+
+_Description_  
+The process of syncing a users currenting calendars into their google calendar attached to their login. This can be done by means of importing a .csv or .ics file. They are also given the option to either share their other calendar to this google calendar or manually enter times they are busy on the calendar itself.  
+
+_Criticality_  
+This is a critical feature as without this users will not be able to enter when they are busy.  
+
+_Technical Issues_  
+Finding out how to allow users to share other calendars to this calendar.  
+
+_Dependencies_  
+Depends on calendars to work.  
+
+ 
+### 3.8 Database Queries
+_Description_  
+The database will store information related to users and groups. The webapp will need to store and pull data from the database for almost every action it performs. The database will consist of two major databases - users and groups.
+ 
+_Criticality_  
+The database for the system is trivially important, as without it groups will not be an operable function.  
+ 
+_Technical Issues_  
+Database queries adds the need for SQL and PHP to the project. Requires a physical server to host database on, however this can be the server the webapp will be hosted on.  
+ 
+_Dependencies_  
+The User and Group information is stored on the database. These are the only functional requirements which interact with the database.  
 
 
 
