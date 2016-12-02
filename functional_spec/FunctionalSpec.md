@@ -250,7 +250,7 @@ _Dependencies_
 The User and Group information is stored on the database. These are the only functional requirements which interact with the database.  
 
 
-## 4 System Architecture
-
+## 4.System Architecture
+![System Architecture Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/4.%20System%20Architecture%20Diagram.jpg)
 
 
