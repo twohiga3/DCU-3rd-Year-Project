@@ -1,6 +1,6 @@
 # Functional Specification for Meeting-Organiser  
 
-## 1.Introduction
+![**1**](head1)
 ### 1.1 Overview
 ### 1.2 Glossary
 
@@ -30,9 +30,9 @@
 
 ***
 
-## 1.Introduction
+## 1.Introduction <a name="head1"></a>
 
-### 1.1 Overview
+### 1.1 Overview <a name="head1.1"></a>
 
 The system will be a webapp which will utilise its user’s calendar to organise meetings between multiple users. Users will create logins for the webapp and will have a calendar associated to each login, which has all their scheduled events for the weeks ahead. The users can then create groups of users to organise a meeting with. Each group will have an admin - the user who created the group by default, though this privilege can be passed among users in the group, and multiple admins will be allowed but not advised. Groups will have a built in chat client, and the admin of the group can set parameters for a meeting to organise, as well as assign some users as high priority for meetings, such as a meeting between students and a lecturer would assign high priority to the lecturer. Some of the possible parameters will include: how long a meeting will last; meeting locations as specified (see below for description); high priority users for meetings. Meeting locations will adhere to necessities for users, such as accessibility for disabled users, computers, conference call functionality and more. Behind the scenes, the application will compare each user in a group’s calendar to find suitable times which adhere to user’s available time. In the instance of the application returning multiple possible meeting times, users in the group can vote for which time suits them best. High priority users will have a higher weighting for voting. In the event of a tie, the option voted for by the highest priority user will be chosen, or the group admin will gain privilege to choose which time should be used. Once a meeting is organised, the webapp will add this meeting to the user’s calendars.  
 
