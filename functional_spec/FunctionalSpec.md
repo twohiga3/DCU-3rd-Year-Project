@@ -44,7 +44,94 @@ _Voting_
 In the event of the meeting function returning multiple possible meeting times, user’s will be given the option to vote for their preferential meeting times through highest importance voting - ie they rank their most suited time 1, and their least suited time n where n is the number of meetings returned.  
 
 
-  
+**2.2 User Characteristics and Objectives**
+_Types of Users_  
+
+There are 2 primary types of Users we are catering towards.   
+1.Business people looking to organise internal or external meetings
+2.College students looking to organise meetings with lecturers or with groups for projects.   
+
+Each of these users will probably be daily users of the internet and as a result should be able to access our website without any issues. Some may also be familiar with Calendars and how to import, export, and sync them. However it would still be a good idea to provide instruction on how to complete these tasks. Both these groups will probably be familiar with the website “Doodle” which has a similar function to our webapp. This will help us as users will be familiar with this idea of figuring out common free times using a website. It may also however lead to users finding it tough to adapt to the changes between “Doodle” and our website.  
+
+However due to the broad appeal of a meeting planner it could be expected that a variety of users would use the webapp.. While we can assume they at least have a basic knowledge of the web, our webapp must still be easy to use so as to cater to the lower technical skills of some of the users.  
+
+_Users Expectations / Requirements_
+
+### Business / College Expectations
+* The ability to organise a meeting between groups of people. The people in the group may or may not be users of the website.
+
+* An easy way to fill in when they are unavailable. This could be manually filling in a calendar or importing their calendar.
+
+* Ability to vote on which time suits them best for a meeting.
+
+* Be able to create a group containing users of the website who they have frequent meetings with.
+
+* The ability to add in requirements for a meeting so as to show the available meeting rooms that meet the requirements.
+
+* Have certain users (for example Lecturers or Managers) carry a greater weighting so as to prioritise their free times over other members of the meeting / group.
+
+* Add meetings to the users calendar and send out notification emails.
+
+* Inter group / meeting chat. So as to communicate between members.
+
+#### User's Wishlist
+* Upload minutes or notes of meeting which is then sent to all members of the group.
+
+* Organise meetings between different timezones.
+
+* Create a business group with multiple sub-groups.
+
+**2.3 Operational Scenarios**
+
+#### User Creates an Account
+
+1. User clicks on create account button.
+2. User is asked to fill in a form. They must enter a unique username and a password that conforms to the security standards we set. For example at least 6 characters long with letters and numbers but no miscellaneous symbols. They also must enter a First and Last name. However other information such as Address, Date of Birth, College/Business, and Occupation is optional.
+3. User is sent an email to confirm email address.
+4. User enters code sent in email address and this activates the account.
+
+#### User Logs into account
+
+1. User clicks on login button.
+2. User is given choice between logging in with an account they created or a google account they currently possess.
+3. User enters username and password.
+4. If correct they can enter the site.
+5. If incorrect given a fixed number of tries to correctly input details.
+6. Account is locked after enough incorrect tries. User is sent an email allowing them to unlock it.
+7. If a user has forgotten their username or password they can either have their username sent out to them or they can reset the password.
+
+#### Import Calendar to Google Calendar
+
+1. User is given option to import a .csv or .ics file.
+2. User click import button.
+3. Window pops up that allows user to select the file to be imported or drag and drop file into window.
+4. User presses ok when correct file is selected.
+5. If file is imported correctly then user is given a message “Events have been imported”.
+6. Otherwise “Import Failed” message is given.
+
+#### Organise a Meeting With Website Users
+
+1. User selects create a meeting button
+2. User adds users to meeting using their email address or sending them a link.
+3. User selects a start and end time and or date for the meeting to occur during as well a duration.
+4. User select any additional requirements for the meeting for example size of room required, projector, or conference phone.
+5. User sets any high priority users for example Lecturer/Manager. This gives this user more weighting in the voting process.
+6. User presses create button.
+7. User is informed if group is successfully created.
+
+**2.4**
+
+The webapp will run into multiple constraints throughout the development process. Below, these constraints are listed:  
+
+_Time Constraints_
+The development team will encounter issues arising from trying to have the project completed and operational in the six weeks they have to complete it.  
+
+_Hardware Constraints_
+In order for the webapp to be operational it is necessary that it can be hosted online on a server. This will have to be acquired by the development team.  
+ 
+_User Requirements_
+It is necessary for the program that it meets the requirements of its users.
+
 
 
 
