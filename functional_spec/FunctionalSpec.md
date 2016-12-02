@@ -1,4 +1,34 @@
-# Functional Specification for Meeting-Organiser
+# Functional Specification for Meeting-Organiser  
+
+## 1.Introduction
+### 1.1 Overview
+### 1.2 Glossary
+
+## 2.General Descriptions
+### 2.1 System Functions
+### 2.2 User Characteristics and Objectives
+### 2.3 Operational Scenarios
+### 2.4 Constraints
+
+## 3.Functional Requirements
+### 3.1 User Login/Registration
+### 3.2 Creating a group
+### 3.3 Adding Users to a Group
+### 3.4 Creating a Meeting
+### 3.5 Voting on the Best Time for a Meeting
+### 3.6 Calendars
+### 3.7 Calendar Sync
+### 3.8 Database Queries
+
+## 4.System Architecture
+
+## 5.High Level Design
+
+## 6.Preliminary Schedule
+
+## 7.Appendices
+
+***
 
 ## 1.Introduction
 
@@ -174,7 +204,7 @@ Users can add new users into their group. A user must be an admin of a group to 
 _Criticality_   
 This is very important for making groups work properly however it is not critical to the webapp.  
  
-_Technical Issues_  
+_Technical Issues_  https://www.redbrick.dcu.ie/
 The webapp must be able to set users as admins of their respective groups. It also needs some way of sending invites to groups to users via their email addresses. Lastly, the application must be able to keep track of how many users are in a group and enforce an upper limit on it.  
  
 _Dependencies_  
@@ -249,6 +279,7 @@ Database queries adds the need for SQL and PHP to the project. Requires a physic
 _Dependencies_  
 The User and Group information is stored on the database. These are the only functional requirements which interact with the database.  
 
+***
 
 ## 4.System Architecture
 
@@ -290,5 +321,7 @@ The Gantt chart sets out the order we want to build our webapp and the timeframe
 * ![Doodle](http://doodle.com/)
 * ![Google Calendar API](https://developers.google.com/google-apps/calendar/)
 * ![Google Sign In API](https://developers.google.com/identity/)
+* ![DCU Redbrick](https://www.redbrick.dcu.ie/)
 * ![Stack Overflow](http://stackoverflow.com/)
 * ![W3Schools](http://www.w3schools.com/)
+
