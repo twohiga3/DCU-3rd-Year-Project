@@ -1,6 +1,6 @@
 # Functional Specification for Meeting-Organiser  
 
-![**1**](head1)
+[**1**](head1)
 ### 1.1 Overview
 ### 1.2 Glossary
 
