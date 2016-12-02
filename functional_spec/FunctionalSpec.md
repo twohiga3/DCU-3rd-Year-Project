@@ -278,8 +278,17 @@ Displayed in this section are several diagrams which help to describe and displa
 ### Logical Data System Diagram
 ![Logical Data System Diagram](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/LogicalDataSystem.png)
 
-## 6.
+## 6.Preliminary Schedule
+
+The Gantt chart sets out the order we want to build our webapp and the timeframe for each item.  
+
+![Gantt Chart](https://gitlab.computing.dcu.ie/smythc44/2017-CA326-csmyth-meetingorganiser/blob/master/functional_spec/GanttChartFinal.jpg)
 
 
-![Gantt Chart]()
+## 7.Appendices
 
+* ![Doodle](http://doodle.com/)
+* ![Google Calendar API](https://developers.google.com/google-apps/calendar/)
+* ![Google Sign In API](https://developers.google.com/identity/)
+* ![Stack Overflow](http://stackoverflow.com/)
+* ![W3Schools](http://www.w3schools.com/)
